@@ -8,13 +8,13 @@ import GoogleAnalytics from "./components/GoogleAnalytics";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Royal India Bistro | Authentic India Restaurant in Alexandria, VA",
-  description: "Experience authentic Indian cuisine at Royal India Bistro in Alexandria, VA. Enjoy traditional dishes, catering services, and online ordering. Best Indian restaurant in Alexandria.",
+  title: "Royal India Bistro | Authentic India Restaurant in Alexandria, LA",
+  description: "Experience authentic Indian cuisine at Royal India Bistro in Alexandria, LA. Enjoy traditional dishes, catering services, and online ordering. Best Indian restaurant in Alexandria.",
   keywords: "Indian restaurant Alexandria, Royal India Bistro, Indian food Alexandria VA, best Indian restaurant, Indian cuisine, Indian takeout, Indian delivery, Alexandria restaurants",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://royalindianbistro.com'),
   openGraph: {
-    title: "Royal India Bistro | Authentic Indian Restaurant in Alexandria, VA",
-    description: "Experience authentic Indian cuisine at Royal India Bistro in Alexandria, VA. Enjoy traditional dishes, catering services, and online ordering.",
+    title: "Royal India Bistro | Authentic Indian Restaurant in Alexandria, LA",
+    description: "Experience authentic Indian cuisine at Royal India Bistro in Alexandria, LA. Enjoy traditional dishes, catering services, and online ordering.",
     url: "https://royalindianbistro.com",
     siteName: "Royal India Bistro",
     images: [
@@ -30,8 +30,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Royal India Bistro | Authentic Indian Restaurant in Alexandria, VA",
-    description: "Experience authentic Indian cuisine at Royal India Bistro in Alexandria, VA. Enjoy traditional dishes, catering services, and online ordering.",
+    title: "Royal India Bistro | Authentic Indian Restaurant in Alexandria, LA",
+    description: "Experience authentic Indian cuisine at Royal India Bistro in Alexandria, LA. Enjoy traditional dishes, catering services, and online ordering.",
     images: ["/images/restaurant-exterior.jpg"],
   },
   alternates: {

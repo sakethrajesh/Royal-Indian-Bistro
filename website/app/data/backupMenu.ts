@@ -19,7 +19,7 @@ export const backupItems: CloverMenuItem[] = [
     priceType: 'FIXED',
     categories: [{ id: 'cat_appetizers', name: 'Appetizers' }],
     tags: ['Vegetarian'],
-    imageUrl: '/images/backup/samosa.jpg',
+    imageUrl: '/images/resturant.webp',
   },
   {
     id: 'item_pakora',
@@ -29,7 +29,7 @@ export const backupItems: CloverMenuItem[] = [
     priceType: 'FIXED',
     categories: [{ id: 'cat_appetizers', name: 'Appetizers' }],
     tags: ['Vegetarian', 'Gluten-Free'],
-    imageUrl: '/images/backup/pakora.jpg',
+    imageUrl: '/images/resturant.webp',
   },
   {
     id: 'item_chicken_tikka',
@@ -39,7 +39,7 @@ export const backupItems: CloverMenuItem[] = [
     priceType: 'FIXED',
     categories: [{ id: 'cat_appetizers', name: 'Appetizers' }],
     tags: ['Spicy'],
-    imageUrl: '/images/backup/chicken-tikka.jpg',
+    imageUrl: '/images/resturant.webp',
   },
 
   // Main Courses
@@ -51,7 +51,7 @@ export const backupItems: CloverMenuItem[] = [
     priceType: 'FIXED',
     categories: [{ id: 'cat_main_courses', name: 'Main Courses' }],
     tags: ['Popular'],
-    imageUrl: '/images/backup/butter-chicken.jpg',
+    imageUrl: '/images/resturant.webp',
   },
   {
     id: 'item_lamb_biryani',
@@ -61,7 +61,7 @@ export const backupItems: CloverMenuItem[] = [
     priceType: 'FIXED',
     categories: [{ id: 'cat_main_courses', name: 'Main Courses' }],
     tags: ['Spicy'],
-    imageUrl: '/images/backup/lamb-biryani.jpg',
+    imageUrl: '/images/resturant.webp',
   },
   {
     id: 'item_paneer_tikka_masala',
@@ -71,7 +71,7 @@ export const backupItems: CloverMenuItem[] = [
     priceType: 'FIXED',
     categories: [{ id: 'cat_main_courses', name: 'Main Courses' }],
     tags: ['Vegetarian', 'Popular'],
-    imageUrl: '/images/backup/paneer-tikka-masala.jpg',
+    imageUrl: '/images/resturant.webp',
   },
 
   // Breads & Rice
@@ -83,7 +83,7 @@ export const backupItems: CloverMenuItem[] = [
     priceType: 'FIXED',
     categories: [{ id: 'cat_breads', name: 'Breads & Rice' }],
     tags: ['Vegetarian'],
-    imageUrl: '/images/backup/garlic-naan.jpg',
+    imageUrl: '/images/resturant.webp',
   },
   {
     id: 'item_basmati_rice',
@@ -93,7 +93,7 @@ export const backupItems: CloverMenuItem[] = [
     priceType: 'FIXED',
     categories: [{ id: 'cat_breads', name: 'Breads & Rice' }],
     tags: ['Vegetarian', 'Gluten-Free'],
-    imageUrl: '/images/backup/basmati-rice.jpg',
+    imageUrl: '/images/resturant.webp',
   },
 
   // Desserts
@@ -105,7 +105,7 @@ export const backupItems: CloverMenuItem[] = [
     priceType: 'FIXED',
     categories: [{ id: 'cat_desserts', name: 'Desserts' }],
     tags: ['Vegetarian'],
-    imageUrl: '/images/backup/gulab-jamun.jpg',
+    imageUrl: '/images/resturant.webp',
   },
   {
     id: 'item_kheer',
@@ -115,6 +115,6 @@ export const backupItems: CloverMenuItem[] = [
     priceType: 'FIXED',
     categories: [{ id: 'cat_desserts', name: 'Desserts' }],
     tags: ['Vegetarian', 'Gluten-Free'],
-    imageUrl: '/images/backup/kheer.jpg',
+    imageUrl: '/images/resturant.webp',
   },
 ]; 

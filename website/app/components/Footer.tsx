@@ -26,6 +26,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/catering" className="text-gray-600 hover:text-orange-600 transition-colors">
+                  Catering
+                </Link>
+              </li>
+              <li>
                 <Link href="/about" className="text-gray-600 hover:text-orange-600 transition-colors">
                   About Us
                 </Link>
@@ -33,11 +38,6 @@ const Footer = () => {
               <li>
                 <Link href="/contact" className="text-gray-600 hover:text-orange-600 transition-colors">
                   Contact
-                </Link>
-              </li>
-              <li>
-                <Link href="/reservations" className="text-gray-600 hover:text-orange-600 transition-colors">
-                  Make a Reservation
                 </Link>
               </li>
             </ul>

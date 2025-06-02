@@ -33,19 +33,19 @@ export default function Home() {
     {
       name: 'Butter Chicken',
       description: 'Tender chicken in a rich, creamy tomato-based curry sauce',
-      image: '/images/butter-chicken.jpg',
+      image: '/images/resturant.webp',
       price: '$18.99',
     },
     {
       name: 'Lamb Biryani',
       description: 'Fragrant basmati rice cooked with tender lamb and aromatic spices',
-      image: '/images/lamb-biryani.jpg',
+      image: '/images/resturant.webp',
       price: '$22.99',
     },
     {
       name: 'Paneer Tikka',
       description: 'Grilled cottage cheese marinated in spices and yogurt',
-      image: '/images/paneer-tikka.jpg',
+      image: '/images/resturant.webp',
       price: '$15.99',
     },
   ];
@@ -56,8 +56,8 @@ export default function Home() {
       <section className="relative h-[80vh] flex items-center justify-center" aria-label="Welcome to Royal India Bistro">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero-bg.jpg"
-            alt="Royal India Bistro - Elegant Indian Restaurant Interior in Alexandria, VA"
+            src="/images/resturant.webp"
+            alt="Royal India Bistro - Elegant Indian Restaurant Interior in Alexandria, LA"
             fill
             className="object-cover brightness-50"
             priority
@@ -66,7 +66,7 @@ export default function Home() {
         </div>
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Best Indian Restaurant in Alexandria, VA
+            Best Indian Restaurant in Alexandria, LA
           </h1>
           <p className="text-xl md:text-2xl mb-8">
             Authentic Indian Cuisine & Fine Dining Experience
@@ -132,7 +132,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px]">
               <Image
-                src="/images/restaurant-interior.jpg"
+                src="/images/resturant.webp"
                 alt="Royal India Bistro Interior - Elegant Indian Restaurant in Alexandria"
                 fill
                 className="object-cover rounded-lg"
@@ -149,7 +149,7 @@ export default function Home() {
                 dishes prepared by our expert chefs from various regions of India.
               </p>
               <p className="text-gray-600 mb-6">
-                Located in the heart of Alexandria, VA, our restaurant offers an 
+                Located in the heart of Alexandria, LA, our restaurant offers an 
                 unforgettable dining experience with carefully crafted dishes using 
                 traditional spices and cooking techniques. We source the finest 
                 ingredients to ensure authentic and memorable Indian cuisine.
