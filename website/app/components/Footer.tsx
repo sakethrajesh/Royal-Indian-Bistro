@@ -89,7 +89,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-gray-600">
-            © {new Date().getFullYear()} Royal Indian Bistro. All rights reserved.
+            © {new Date().getFullYear()} Royal India Bistro. All rights reserved.
           </p>
           <div className="flex space-x-4">
             <Link href="/privacy" className="text-gray-600 hover:text-orange-600 transition-colors">

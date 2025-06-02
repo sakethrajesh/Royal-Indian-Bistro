@@ -53,11 +53,11 @@ export default function Home() {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="relative h-[80vh] flex items-center justify-center" aria-label="Welcome to Royal Indian Bistro">
+      <section className="relative h-[80vh] flex items-center justify-center" aria-label="Welcome to Royal India Bistro">
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/hero-bg.jpg"
-            alt="Royal Indian Bistro - Elegant Indian Restaurant Interior in Alexandria, VA"
+            alt="Royal India Bistro - Elegant Indian Restaurant Interior in Alexandria, VA"
             fill
             className="object-cover brightness-50"
             priority
@@ -76,7 +76,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             className="bg-orange-600 text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-orange-700 transition-colors inline-block"
-            aria-label="Order Indian Food Online from Royal Indian Bistro"
+            aria-label="Order Indian Food Online from Royal India Bistro"
             onClick={handleOrderClick}
           >
             Order Now
@@ -99,7 +99,7 @@ export default function Home() {
                 <div className="relative h-48">
                   <Image
                     src={dish.image}
-                    alt={`${dish.name} - Authentic Indian Dish at Royal Indian Bistro`}
+                    alt={`${dish.name} - Authentic Indian Dish at Royal India Bistro`}
                     fill
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -133,7 +133,7 @@ export default function Home() {
             <div className="relative h-[400px]">
               <Image
                 src="/images/restaurant-interior.jpg"
-                alt="Royal Indian Bistro Interior - Elegant Indian Restaurant in Alexandria"
+                alt="Royal India Bistro Interior - Elegant Indian Restaurant in Alexandria"
                 fill
                 className="object-cover rounded-lg"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -144,7 +144,7 @@ export default function Home() {
                 Alexandria's Premier Indian Restaurant
               </h2>
               <p className="text-gray-600 mb-4">
-                Welcome to Royal Indian Bistro, Alexandria's top-rated Indian restaurant. 
+                Welcome to Royal India Bistro, Alexandria's top-rated Indian restaurant. 
                 We bring the authentic flavors of India to your table, serving traditional 
                 dishes prepared by our expert chefs from various regions of India.
               </p>
@@ -157,7 +157,7 @@ export default function Home() {
               <Link
                 href="/about"
                 className="text-orange-600 font-semibold hover:text-orange-700 transition-colors"
-                aria-label="Learn more about Royal Indian Bistro's story"
+                aria-label="Learn more about Royal India Bistro's story"
                 onClick={handleAboutClick}
               >
                 Learn more about us →

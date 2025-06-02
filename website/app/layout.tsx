@@ -8,20 +8,21 @@ import GoogleAnalytics from "./components/GoogleAnalytics";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Royal Indian Bistro | Authentic Indian Restaurant in Alexandria, VA",
-  description: "Experience authentic Indian cuisine at Royal Indian Bistro in Alexandria, VA. Enjoy traditional dishes, catering services, and online ordering. Best Indian restaurant in Alexandria.",
-  keywords: "Indian restaurant Alexandria, Royal Indian Bistro, Indian food Alexandria VA, best Indian restaurant, Indian cuisine, Indian takeout, Indian delivery, Alexandria restaurants",
+  title: "Royal India Bistro | Authentic India Restaurant in Alexandria, VA",
+  description: "Experience authentic Indian cuisine at Royal India Bistro in Alexandria, VA. Enjoy traditional dishes, catering services, and online ordering. Best Indian restaurant in Alexandria.",
+  keywords: "Indian restaurant Alexandria, Royal India Bistro, Indian food Alexandria VA, best Indian restaurant, Indian cuisine, Indian takeout, Indian delivery, Alexandria restaurants",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://royalindianbistro.com'),
   openGraph: {
-    title: "Royal Indian Bistro | Authentic Indian Restaurant in Alexandria, VA",
-    description: "Experience authentic Indian cuisine at Royal Indian Bistro in Alexandria, VA. Enjoy traditional dishes, catering services, and online ordering.",
+    title: "Royal India Bistro | Authentic Indian Restaurant in Alexandria, VA",
+    description: "Experience authentic Indian cuisine at Royal India Bistro in Alexandria, VA. Enjoy traditional dishes, catering services, and online ordering.",
     url: "https://royalindianbistro.com",
-    siteName: "Royal Indian Bistro",
+    siteName: "Royal India Bistro",
     images: [
       {
         url: "/images/restaurant-exterior.jpg",
         width: 1200,
         height: 630,
-        alt: "Royal Indian Bistro - Authentic Indian Restaurant in Alexandria",
+        alt: "Royal India Bistro - Authentic Indian Restaurant in Alexandria",
       },
     ],
     locale: "en_US",
@@ -29,8 +30,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Royal Indian Bistro | Authentic Indian Restaurant in Alexandria, VA",
-    description: "Experience authentic Indian cuisine at Royal Indian Bistro in Alexandria, VA. Enjoy traditional dishes, catering services, and online ordering.",
+    title: "Royal India Bistro | Authentic Indian Restaurant in Alexandria, VA",
+    description: "Experience authentic Indian cuisine at Royal India Bistro in Alexandria, VA. Enjoy traditional dishes, catering services, and online ordering.",
     images: ["/images/restaurant-exterior.jpg"],
   },
   alternates: {
@@ -67,7 +68,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Restaurant",
-              "name": "Royal Indian Bistro",
+              "name": "Royal India Bistro",
               "image": "https://royalindianbistro.com/images/restaurant-exterior.jpg",
               "url": "https://royalindianbistro.com",
               "telephone": "+1-703-555-0123",
