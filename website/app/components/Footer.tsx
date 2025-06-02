@@ -9,10 +9,9 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <div className="space-y-2">
-              <p>123 Spice Street</p>
-              <p>San Francisco, CA 94105</p>
-              <p>Phone: (555) 123-4567</p>
-              <p>Email: info@royalindianbistro.com</p>
+              <p>1473 Dorchester Drive</p>
+              <p>Alexandria, LA 71301</p>
+              <p>Phone: (318) 704-1763</p>
             </div>
           </div>
 
@@ -47,9 +46,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Hours</h3>
             <div className="space-y-2">
-              <p>Monday - Thursday: 11:00 AM - 10:00 PM</p>
-              <p>Friday - Saturday: 11:00 AM - 11:00 PM</p>
-              <p>Sunday: 12:00 PM - 9:00 PM</p>
+              <p>Monday - Sunday: 11:00 AM - 9:00 PM</p>
             </div>
           </div>
         </div>

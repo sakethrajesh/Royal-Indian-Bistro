@@ -60,9 +60,9 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold">Address</h3>
                     <p className="text-gray-600">
-                      123 Spice Street
+                    1473 Dorchester Drive
                       <br />
-                      San Francisco, CA 94105
+                      Alexandria, LA 71301
                     </p>
                   </div>
                 </div>
