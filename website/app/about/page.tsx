@@ -4,8 +4,13 @@ import { Suspense } from 'react';
 import Image from 'next/image';
 import { useSearchParams } from 'next/navigation';
 
-function AboutContent() {
+// Separate client component that uses useSearchParams
+function SearchParamsWrapper() {
   const searchParams = useSearchParams();
+  return null; // Since we're not actually using the searchParams yet
+}
+
+function AboutContent() {
   const teamMembers = [
     {
       name: 'Chef Rajesh Kumar',
@@ -188,6 +193,7 @@ export default function About() {
         </div>
       </div>
     }>
+      <SearchParamsWrapper />
       <AboutContent />
     </Suspense>
   );

@@ -2,7 +2,7 @@
 
 import Script from 'next/script';
 import { usePathname, useSearchParams } from 'next/navigation';
-import { useEffect } from 'react';
+import { useEffect, Suspense } from 'react';
 
 // Replace with your actual GA4 measurement ID
 const GA_MEASUREMENT_ID = 'G-7B670P0EFN';
@@ -28,7 +28,7 @@ export const event = ({ action, category, label, value }: {
   });
 };
 
-export default function GoogleAnalytics() {
+function AnalyticsContent() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
@@ -59,6 +59,14 @@ export default function GoogleAnalytics() {
         }}
       />
     </>
+  );
+}
+
+export default function GoogleAnalytics() {
+  return (
+    <Suspense fallback={null}>
+      <AnalyticsContent />
+    </Suspense>
   );
 }
 
